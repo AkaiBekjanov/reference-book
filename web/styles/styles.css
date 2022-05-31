@@ -1,0 +1,53 @@
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+
+}
+.container{
+  max-width:1600px;
+ 
+  background-color:#DDFF0A;
+}
+
+.nav{
+  display:flex;
+  justify-content:space-around;
+}
+.ul-header:not(.active-li){
+  display:flex;
+  position:relative;
+  top:20px;
+   
+}
+ul li{
+  padding-left:10px;
+  list-style-type:none;
+}
+.active-li{
+  display:flex;
+  position:relative;
+  bottom:20px;
+ 
+}
+.nav-bf-logo{
+  width:75px;
+  height:56px;
+  color:white;
+  border:1px
+    solid #121212;
+  background-color:#121212;
+  text-align:center;
+  padding-top:1em ;
+  border-radius:30px;}
+.text-header{
+  position:relative;
+  top:1em
+}
+main{
+  display:grid;
+  grid-template-areas:'a a d
+    b c d';
+   
+  text-align:center
+}
