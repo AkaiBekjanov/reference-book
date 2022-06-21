@@ -181,3 +181,23 @@ article a{
         left:100px;
     }
 }
+@media (max-width:760px){
+    .container{
+        max-width: 300px;
+    }
+    .h1_header{
+        font-size: 30px;
+    }
+    article p{
+        font-size: 20px;
+    }
+    .img_ru{
+        top:650px;
+ 
+        position: absolute;
+    }
+    .main_image,.img_math,.img_ru{
+        display: none;
+    }
+
+}
